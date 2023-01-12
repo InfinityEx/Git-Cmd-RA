@@ -20,6 +20,10 @@ git config --global --list
 
 ssh-keygen -t rsa -C "<email address>"
 
+**设置带4096bit加密的公钥和秘钥**
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
 
 
 **验证是否ssh对接成功**
